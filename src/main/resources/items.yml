@@ -1,0 +1,25 @@
+#Special items
+
+#This is an example, to make one on your own, just copy this and fill in your own values, and change the name
+#Name has to start with c, for custom
+cElementalSword:
+  #Material and item is the same thing, so in here goes item name (UpperCase is important)
+  material: 'IRON_SWORD'
+
+  #First name of enchantment then followed by level of enchantment (Enchantments can be found here https://docs.google.com/document/d/14PrsWtY590xrZPMSzGArDUUhd8_-4HEH6q_0g5iDI1c/edit?usp=sharing)
+  enchantments:
+    - 'FIRE_ASPECT 2'
+
+  #Here is the name of the sword (Use & color code)
+  name: '&6Elemental Sword'
+
+  #Here you can add a custom lore to show when players view it
+  lore: 'Sword of the hundred mages'
+
+cTemplarsEdge:
+  material: 'IRON_SWORD'
+  enchantments:
+    - 'SMITE 2'
+    - 'SWEEPING 3'
+  name: '&6Templars Edge'
+  lore: 'Made to protect the gods from the devils mobs'
