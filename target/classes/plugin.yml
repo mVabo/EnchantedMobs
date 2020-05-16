@@ -1,0 +1,14 @@
+name: EnchantedMobs
+version: 1.0-SNAPSHOT
+main: me.mvabo.enchantedmobs.EnchantedMobs
+api-version: 1.13
+prefix: EnchantedMobs
+authors: [mVabo]
+description: Adds various mobs to your server
+
+commands:
+  em:
+    description: Spawns given mob
+    usage: /em
+    permission: enchantedMobs.spawn
+    permission-message: "Insufficient permissions"

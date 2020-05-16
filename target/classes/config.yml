@@ -1,0 +1,44 @@
+enabled: true
+
+#Enabled mobs
+SandElemental: true
+ZombieThief: true
+FallenBarbarian: true
+Stalker: true
+Cannibal: true
+Illusioner: true
+TribalHunter: true
+GhostOfTheTemplar: true
+PossessedLumberjack: true
+SunkenPirate: true
+WaterElemental: true
+
+#Spawn chances
+SandElemental_chance: 45
+ZombieThief_chance: 45
+FallenBarbarian_chance: 45
+Stalker_chance: 45
+Cannibal_chance: 45
+Illusioner_chance: 45
+TribalHunter_chance: 45
+GhostOfTheTemplar_chance: 45
+PossessedLumberjack_chance: 45
+SunkenPirate_chance: 45
+WaterElemental_chance: 45
+
+#Mob names
+sandElemental_name: 'Sand Elemental'
+ZombieThief_name: 'Zombie Thief'
+fallenBarbarian_name: 'Fallen Barbarian'
+stalker_name: 'Stalker'
+cannibal_name: 'Cannibal'
+illusioner_name: 'Illusioner'
+tribalHunter_name: 'Tribal Hunter'
+ghostOfTheTemplar_name: 'Ghost of the Templar'
+possessedLumberjack_name: 'Possessed Lumberjack'
+sunkenPirate_name: 'Sunken Pirate'
+waterElemental_name: 'Water Elemental'
+
+#What worlds should the plugin be enabled in?
+worlds:
+  - 'world'

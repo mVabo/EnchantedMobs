@@ -1,0 +1,135 @@
+#++++++++++++++++++++++
+# Custom Mob LootTable
+#++++++++++++++++++++++
+
+#Decide drop rates
+common_droprate: 50
+uncommon_droprate: 20
+rare_droprate: 5
+legendary_droprate: 1
+
+#Common drops
+common_cannibal_drops:
+  - 'ROTTEN_FLESH'
+
+common_illusioner_drops:
+  - 'GUNPOWDER'
+
+common_tribalHunter_drops:
+  - 'GREEN_DYE'
+
+common_fallenBarbarian_drops:
+  - 'ROTTEN_FLESH'
+
+common_stalker_drops:
+  - 'GUNPOWDER'
+
+common_sandElemental_drops:
+  - 'SAND'
+
+common_zombieThief_drops:
+  - 'STICK'
+
+common_ghostOfTheTemplar_drops:
+  - 'WHITE_DYE'
+
+common_sunkenPirate_drops:
+  - 'WOODEN_HOE'
+
+common_waterElemental_drops:
+  - 'BLUE_DYE'
+
+#Uncommon drops
+uncommon_cannibal_drops:
+  - 'ROTTEN_FLESH'
+
+uncommon_illusioner_drops:
+  - 'APPLE'
+
+uncommon_tribalHunter_drops:
+  - 'BOW'
+
+uncommon_fallenBarbarian_drops:
+  - 'ROTTEN_FLESH'
+
+uncommon_stalker_drops:
+  - 'APPLE'
+
+uncommon_sandElemental_drops:
+  - 'SANDSTONE'
+
+uncommon_zombieThief_drops:
+  - 'BOWL'
+
+uncommon_ghostOfTheTemplar_drops:
+  - 'WHITE_DYE'
+
+uncommon_sunkenPirate_drops:
+  - 'BOW'
+
+uncommon_waterElemental_drops:
+  - 'BLUE_ICE'
+
+#Rare drops
+rare_cannibal_drops:
+  - 'ROTTEN_FLESH'
+  - 'CHICKEN'
+
+rare_illusioner_drops:
+  - 'IRON_AXE'
+
+rare_tribalHunter_drops:
+  - 'CROSSBOW'
+
+rare_fallenBarbarian_drops:
+  - 'STONE_SWORD'
+
+rare_stalker_drops:
+  - 'LEAD'
+
+rare_sandElemental_drops:
+  - 'WOODEN_SWORD'
+
+rare_zombieThief_drops:
+  - 'LEATHER_LEGGINGS'
+
+rare_ghostOfTheTemplar_drops:
+  - 'LEATHER_CHESTPLATE'
+
+rare_sunkenPirate_drops:
+  - 'LEATHER_HELMET'
+
+rare_waterElemental_drops:
+  - 'LEATHER_BOOTS'
+
+#Legendary drops
+legendary_cannibal_drops:
+  - 'DIAMOND_SWORD'
+  - 'DIAMOND_BOOTS'
+
+legendary_illusioner_drops:
+  - 'IRON_AXE'
+
+legendary_tribalHunter_drops:
+  - 'cElementalSword'
+
+legendary_fallenBarbarian_drops:
+  - 'IRON_AXE'
+
+legendary_stalker_drops:
+  - 'GOLD_SWORD'
+
+legendary_sandElemental_drops:
+  - 'cElementalSword'
+
+legendary_zombieThief_drops:
+  - 'GOLD_BLOCK'
+
+legendary_ghostOfTheTemplar_drops:
+  - 'cTemplarsEdge'
+
+legendary_sunkenPirate_drops:
+  - 'CROSSBOW'
+
+legendary_waterElemental_drops:
+  - 'DIAMOND_SWORD'
