@@ -1,5 +1,5 @@
 name: EnchantedMobs
-version: ${project.version}
+version: 0.0.2
 main: me.mvabo.enchantedmobs.EnchantedMobs
 api-version: 1.13
 prefix: EnchantedMobs

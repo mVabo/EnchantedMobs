@@ -56,5 +56,8 @@ public class SunkenPirate extends Mob {
 
         //Decide if mob can pick up items
         ((LivingEntity) e).setCanPickupItems(false);
+
+        //To prevent lag
+        ((LivingEntity) e).setRemoveWhenFarAway(true);
     }
 }

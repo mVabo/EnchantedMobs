@@ -2,6 +2,7 @@ package me.mvabo.enchantedmobs.mobs;
 
 import me.mvabo.enchantedmobs.EnchantedMobs;
 import me.mvabo.enchantedmobs.mobs.types.TypeManager;
+import org.bukkit.Material;
 import org.bukkit.block.Biome;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.EventHandler;
@@ -32,7 +33,7 @@ public class SpawnHandler implements Listener {
         try{
             for(int i = 0; i < worlds.size(); i++) {
                 if(e.getWorld().getName().equals(worlds.get(i))){
-                    if(event.getSpawnReason().equals(CreatureSpawnEvent.SpawnReason.NATURAL)) {
+                    if(event.getSpawnReason().equals(CreatureSpawnEvent.SpawnReason.NATURAL) && isSurface(e.getLocation().subtract(0,-1,0).getBlock().getType())) {
                         if (!e.hasMetadata("EnchantedMobs")) {
                             if (b.equals(Biome.DESERT)
                                     || b.equals(Biome.BADLANDS)
@@ -80,6 +81,13 @@ public class SpawnHandler implements Listener {
         } catch (Exception err) {
 
         }
+    }
+
+    public boolean isSurface(Material m) {
+        if (m.equals(Material.AIR)) {
+            return true;
+        }
+        return false;
     }
 
 
